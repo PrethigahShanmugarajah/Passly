@@ -68,5 +68,4 @@ function showToast(message) {
   }, 1800);
 }
 
-// Generate initial password on load
 window.onload = createPassword;
