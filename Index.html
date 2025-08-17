@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -26,6 +26,46 @@
         Generate Password
       </button>
     </div>
+
+    <script src="Script.js"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passly</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generate a <br /><span> Random Password</span></h1>
+
+      <div class="display">
+        <input type="text" id="password" placeholder="Password" aria-label="Generated password" readonly />
+        <i class="bi bi-copy" onclick="copyPassword()" aria-label="Copy password" tabindex="0"></i>
+      </div>
+
+      <div class="options">
+        <label for="length">Length:</label>
+        <input type="number" id="length" min="8" max="24" value="12" />
+      </div>
+
+      <div id="strength" class="strength">Strength: <span id="strengthValue">-</span></div>
+
+      <button onclick="createPassword()">
+        <i class="bi bi-lightning-charge-fill"></i>
+        Generate Password
+      </button>
+    </div>
+
+    <div id="toast" class="toast">Password copied!</div>
 
     <script src="Script.js"></script>
   </body>
