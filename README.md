@@ -20,7 +20,7 @@ Passly is a simple, modern web app for generating secure random passwords. It al
 
 ## Technologies
 
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat) HTML5
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat) CSS3
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat) JavaScript (ES6)
-- ![Bootstrap Icons](https://img.shields.io/badge/Bootstrap%20Icons-7952B3?logo=bootstrap&logoColor=white&style=flat) [Bootstrap Icons](https://icons.getbootstrap.com/)
+- !(https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat) HTML5
+- !(https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat) CSS3
+- !(https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat) JavaScript (ES6)
+- !(https://img.shields.io/badge/Bootstrap%20Icons-7952B3?logo=bootstrap&logoColor=white&style=flat)
